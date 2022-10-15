@@ -1,0 +1,17 @@
+{
+  "name": "apiv1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "fastify": "~3.29.0",
+    "fastify-cors": "~6.1.0",
+    "fastify-file-upload": "*",
+    "axios": "*",
+    "dotenv": "*",
+    "mongoose": "*",
+    "moment": "*"
+  }
+}
